@@ -55,13 +55,16 @@ body {
   list-style: none;
 }
 
-.header-contact-link {
+.header-adress {
   font-style: normal;
+}
+
+.header-contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: #434455;
+  text-decoration: none;
 }
 
 .header-contact-link:hover,
