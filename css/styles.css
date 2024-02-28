@@ -6,7 +6,7 @@ body {
 /* header */
 
 .header {
-  background: #fff;
+  background-color: #fff;
 }
 
 /* logo */
@@ -15,7 +15,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -33,7 +33,6 @@ body {
 }
 
 .header-menu-nav {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -42,13 +41,9 @@ body {
   text-decoration: none;
 }
 
-.header-menu-nav:hover {
+.header-menu-nav:hover,
+.header-menu-nav:focus {
   color: #404bbf;
-}
-
-.header-menu-nav:active {
-  color: #404bbf;
-  text-decoration: underline;
 }
 
 .header-contact-list {
@@ -56,7 +51,6 @@ body {
 }
 
 .header-contact-link {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -72,7 +66,7 @@ body {
 /* main-section-one */
 
 .main-section-one {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .main-general-title {
@@ -91,16 +85,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 .button:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 /* main-section-two */
 
 .main-section-two {
-  background: #fff;
+  background-color: #fff;
 }
 
 .main-advantages-list {
@@ -125,7 +120,7 @@ body {
 /* main-section-three */
 
 .main-section-three {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .main-third-title {
@@ -143,7 +138,7 @@ body {
 }
 
 .main-team-item {
-  background: #fff;
+  background-color: #fff;
 }
 
 .main-team-user {
@@ -166,13 +161,13 @@ body {
 /* main-section-fourth */
 
 .main-section-fourth {
-  background: #fff;
+  background-color: #fff;
 }
 
 .main-third-fourth {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -184,7 +179,7 @@ body {
 }
 
 .main-portfolio-item {
-  background: #fff;
+  background-color: #fff;
 }
 
 .main-portfolio-app {
@@ -206,7 +201,7 @@ body {
 /* footer */
 
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .footer-piece-logo {
